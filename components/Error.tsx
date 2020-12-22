@@ -1,6 +1,6 @@
-import { CenterWrapper } from "./Containers";
-import { BigTitle, Body } from "./Text";
-import { PageError } from "../constants/errors";
+import { CenterWrapper } from "@components/Containers";
+import { BigTitle, Body } from "@components/Text";
+import { PageError } from "@constants/errors";
 
 const ErrorPage = ({ err }: { err: PageError }) => {
   const [err_text, err_code] = err;

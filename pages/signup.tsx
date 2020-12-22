@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { BigTitle } from "../components/Text";
+import { BigTitle } from "@components/Text";
 
 const Signup = () => {
   return (

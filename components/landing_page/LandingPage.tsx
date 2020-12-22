@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import { BigTitle, Body } from "../Text";
-import { CenterWrapper } from "../Containers";
+import { BigTitle, Body } from "@components/Text";
+import { CenterWrapper } from "@components/Containers";
 import Header from "./Header";
 
 const TitleWrapper = styled(CenterWrapper)`
