@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var PageErrors = {\n  NotFound: [\"Page not found\", 404]\n};","map":null,"metadata":{},"sourceType":"module"}
