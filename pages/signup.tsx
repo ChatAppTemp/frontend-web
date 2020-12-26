@@ -1,17 +1,11 @@
-import Head from "next/head";
 import { BigTitle } from "@components/Text";
+import Layout from "@components/Layout";
 
 const Signup = () => {
   return (
-    <>
-      <Head>
-        <title>Sign Up</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
-        <BigTitle>Sign Up</BigTitle>
-      </main>
-    </>
+    <Layout title="Sign Up" description="Sign up for an account">
+      <BigTitle>Sign Up</BigTitle>
+    </Layout>
   );
 };
 

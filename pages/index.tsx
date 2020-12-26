@@ -1,17 +1,11 @@
-import Head from "next/head";
 import LandingPage from "@components/landing_page/LandingPage";
+import Layout from "@components/Layout";
 
 const Home = () => {
   return (
-    <>
-      <Head>
-        <title>Chat App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
-        <LandingPage />
-      </main>
-    </>
+    <Layout title="Chat App" description="A simple easy to use chat app">
+      <LandingPage />
+    </Layout>
   );
 };
 

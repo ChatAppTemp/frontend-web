@@ -1,17 +1,11 @@
-import Head from "next/head";
 import { BigTitle } from "@components/Text";
+import Layout from "@components/Layout";
 
 const Login = () => {
   return (
-    <>
-      <Head>
-        <title>Log In</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
-        <BigTitle>Log In</BigTitle>
-      </main>
-    </>
+    <Layout title="Log In" description="Sign into your account">
+      <BigTitle>Log In</BigTitle>
+    </Layout>
   );
 };
 
